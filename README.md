@@ -35,6 +35,8 @@ Following these conventions keeps apps clean, avoids permission issues, and alig
 
 ![Layout][(image.png)]
 
+---
+
 ## 🛠 Accessing Paths in .NET (C#)
 
 ```csharp
