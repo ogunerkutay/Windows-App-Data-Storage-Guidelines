@@ -46,7 +46,7 @@ string cacheFolder = Path.Combine(local, "MyApp", "cache");
 
 📌 Example App File Layout
 
-![Layout][(image.png)](https://raw.githubusercontent.com/ogunerkutay/Windows-App-Data-Storage-Guidelines/refs/heads/main/image.png)
+![Layout][(image.png)]
 
 ✅ Best Practices
 Respect Windows conventions (don’t confuse roaming/local).
