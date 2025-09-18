@@ -31,6 +31,10 @@ Following these conventions keeps apps clean, avoids permission issues, and alig
 
 ---
 
+📌 Example App File Layout
+
+![Layout][(image.png)]
+
 ## 🛠 Accessing Paths in .NET (C#)
 
 ```csharp
@@ -43,10 +47,6 @@ string temp = Path.GetTempPath();
 string settingsPath = Path.Combine(roaming, "MyApp", "settings.json");
 string cacheFolder = Path.Combine(local, "MyApp", "cache");
 ✅ Always use Environment.SpecialFolder — don’t hardcode paths.
-
-📌 Example App File Layout
-
-![Layout][(image.png)]
 
 ✅ Best Practices
 Respect Windows conventions (don’t confuse roaming/local).
