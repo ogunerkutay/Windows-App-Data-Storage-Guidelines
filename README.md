@@ -45,12 +45,9 @@ string cacheFolder = Path.Combine(local, "MyApp", "cache");
 ✅ Always use Environment.SpecialFolder — don’t hardcode paths.
 
 📌 Example App File Layout
-sql
-Kodu kopyala
-C:\Users\User\AppData\Roaming\MyApp\settings.json   <-- user config
-C:\Users\User\AppData\Local\MyApp\cache\...        <-- temp/cache files
-C:\ProgramData\MyApp\shared.db                         <-- machine-wide DB
-C:\Users\User\AppData\Local\Temp\MyApp\*.tmp       <-- transient processing files
+
+![Layout](image.png)
+
 ✅ Best Practices
 Respect Windows conventions (don’t confuse roaming/local).
 
@@ -74,13 +71,3 @@ ProgramData = “Shared across users”
 
 Registry = “Tiny key/value pairs”
 
-📊 Visual Reference (Mermaid Diagram)
-mermaid
-Kodu kopyala
-graph TD
-    A[Application Data] --> B[AppData\Roaming<br/>Configs, Preferences, Small Files]
-    A --> C[AppData\Local<br/>Cache, Logs, Large Local Data]
-    A --> D[AppData\Local\Temp<br/>Temporary Files]
-    A --> E[ProgramData<br/>Machine-Wide Shared Data]
-    A --> F[Documents<br/>User-Visible Files]
-    A --> G[Registry<br/>Small Settings, Licensing]
