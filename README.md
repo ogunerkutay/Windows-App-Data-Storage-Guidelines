@@ -33,7 +33,7 @@ Following these conventions keeps apps clean, avoids permission issues, and alig
 
 📌 Example App File Layout
 
-![Layout][(image.png)]
+![Layout][([image.png](https://github.com/user-attachments/assets/1623be38-c569-49a1-aa59-6e0ab057ffe4))]
 
 ---
 
